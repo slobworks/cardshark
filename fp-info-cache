@@ -1,11 +1,4 @@
-13788570449740
-1206_Wide
-1206_Wide
-
-
-0
-2
-2
+20770967438804
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68530,26 +68523,68 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PDVGA
+Combined_27C256+74LS244
+
+
+0
+20
+20
+PDVGA
 DSUB-15-HD
 
 
 0
 17
 16
-PLCC-32
-DSUB-15-HD
-
-
-0
-17
-16
-PLCC-32
+PDVGA
 PLCC-32_SMD-Socket
 PLCC, 32 pins, surface mount
 plcc smt
 0
 32
 32
+PDVGA
+PQFP-160_28x28mm_P0.65mm
+
+
+0
+160
+160
+PDVGA
+ResArray_Convex_4x0603
+
+
+0
+8
+8
+PDVGA
+SOIC-8_DMP-8
+
+
+0
+8
+8
+PDVGA
+SOIC-20W_7.5x12.8mm_P1.27mm
+
+
+0
+20
+20
+PDVGA
+SOJ-40_10.16x26.44mm_P1.27mm
+
+
+0
+40
+40
+PDVGA
+ugly
+
+
+0
+0
+0
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
@@ -89004,13 +89039,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SOJ_DRAM
-SOJ-40_10.16x26.44mm_P1.27mm
-
-
-0
-40
-40
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

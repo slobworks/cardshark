@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.8,
-          "width": 1.15
+          "height": 4.57,
+          "width": 1.02
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -59,9 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_overlap|225565252|116942374|ebf75d03-b22e-4db1-8c90-5adcc14e0310|4275651e-0554-489d-88cf-3d6946e8f065"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -243,7 +241,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1435100|1409700|ebb42ddc-cd13-4c64-9cd8-807ce18e78cf|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },

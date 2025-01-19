@@ -8664,25 +8664,24 @@
 				)
 			)
 		)
-		(symbol "Memory_EPROM:27C010"
+		(symbol "PDVGA:27C010"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 29.21 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "27C010"
-				(at 2.54 -31.75 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -8694,7 +8693,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0321.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -8703,25 +8702,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "OTP EPROM 1 MiBit (128 Ki x 8 Bit)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "OTP EPROM 1MiBit"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W15.24mm* PLCC*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -8732,8 +8713,8 @@
 			)
 			(symbol "27C010_1_1"
 				(rectangle
-					(start -7.62 27.94)
-					(end 7.62 -30.48)
+					(start -7.62 30.48)
+					(end 7.62 -27.94)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -8743,7 +8724,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -22.86 0)
+					(at -10.16 -20.32 0)
 					(length 2.54)
 					(name "VPP"
 						(effects
@@ -8761,7 +8742,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 20.32 0)
+					(at -10.16 22.86 0)
 					(length 2.54)
 					(name "A2"
 						(effects
@@ -8779,7 +8760,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 22.86 0)
+					(at -10.16 25.4 0)
 					(length 2.54)
 					(name "A1"
 						(effects
@@ -8797,7 +8778,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 25.4 0)
+					(at -10.16 27.94 0)
 					(length 2.54)
 					(name "A0"
 						(effects
@@ -8815,7 +8796,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 25.4 180)
+					(at 10.16 27.94 180)
 					(length 2.54)
 					(name "D0"
 						(effects
@@ -8833,7 +8814,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 22.86 180)
+					(at 10.16 25.4 180)
 					(length 2.54)
 					(name "D1"
 						(effects
@@ -8851,7 +8832,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 20.32 180)
+					(at 10.16 22.86 180)
 					(length 2.54)
 					(name "D2"
 						(effects
@@ -8869,7 +8850,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -33.02 90)
+					(at 0 -30.48 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -8887,7 +8868,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 17.78 180)
+					(at 10.16 20.32 180)
 					(length 2.54)
 					(name "D3"
 						(effects
@@ -8905,7 +8886,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 15.24 180)
+					(at 10.16 17.78 180)
 					(length 2.54)
 					(name "D4"
 						(effects
@@ -8923,7 +8904,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 12.7 180)
+					(at 10.16 15.24 180)
 					(length 2.54)
 					(name "D5"
 						(effects
@@ -8941,7 +8922,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -15.24 0)
+					(at -10.16 -12.7 0)
 					(length 2.54)
 					(name "A16"
 						(effects
@@ -8959,7 +8940,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 10.16 180)
+					(at 10.16 12.7 180)
 					(length 2.54)
 					(name "D6"
 						(effects
@@ -8977,7 +8958,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 7.62 180)
+					(at 10.16 10.16 180)
 					(length 2.54)
 					(name "D7"
 						(effects
@@ -8995,7 +8976,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -25.4 0)
+					(at -10.16 -22.86 0)
 					(length 2.54)
 					(name "~{CE}"
 						(effects
@@ -9013,7 +8994,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 0 0)
+					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "A10"
 						(effects
@@ -9031,7 +9012,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -27.94 0)
+					(at -10.16 -25.4 0)
 					(length 2.54)
 					(name "~{OE}"
 						(effects
@@ -9049,7 +9030,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -2.54 0)
+					(at -10.16 0 0)
 					(length 2.54)
 					(name "A11"
 						(effects
@@ -9067,7 +9048,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 2.54 0)
+					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "A9"
 						(effects
@@ -9085,7 +9066,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 5.08 0)
+					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "A8"
 						(effects
@@ -9103,7 +9084,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -7.62 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "A13"
 						(effects
@@ -9121,7 +9102,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -10.16 0)
+					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "A14"
 						(effects
@@ -9139,7 +9120,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -12.7 0)
+					(at -10.16 -10.16 0)
 					(length 2.54)
 					(name "A15"
 						(effects
@@ -9156,8 +9137,26 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -10.16 -15.24 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
-					(at -10.16 -20.32 0)
+					(at -10.16 -17.78 0)
 					(length 2.54)
 					(name "~{PGM}"
 						(effects
@@ -9175,7 +9174,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 30.48 270)
+					(at 0 33.02 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -9193,7 +9192,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -5.08 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "A12"
 						(effects
@@ -9211,7 +9210,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 7.62 0)
+					(at -10.16 10.16 0)
 					(length 2.54)
 					(name "A7"
 						(effects
@@ -9229,7 +9228,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 10.16 0)
+					(at -10.16 12.7 0)
 					(length 2.54)
 					(name "A6"
 						(effects
@@ -9247,7 +9246,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 12.7 0)
+					(at -10.16 15.24 0)
 					(length 2.54)
 					(name "A5"
 						(effects
@@ -9265,7 +9264,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 15.24 0)
+					(at -10.16 17.78 0)
 					(length 2.54)
 					(name "A4"
 						(effects
@@ -9283,7 +9282,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 17.78 0)
+					(at -10.16 20.32 0)
 					(length 2.54)
 					(name "A3"
 						(effects
@@ -9302,50 +9301,27 @@
 				)
 			)
 		)
-		(symbol "Reference_Current:LM334M"
+		(symbol "PDVGA:LM334M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0.635 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LM334M"
-				(at 0.635 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm134.pdf"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
 				)
 			)
-			(property "Description" "1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -9354,7 +9330,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Adjustable Current Source 10mA"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -9363,7 +9339,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9m*P1.27mm*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -9588,6 +9564,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 5.08 2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54) hide
@@ -9624,174 +9618,17 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "Regulator_Linear:LDK130-33_SOT23_SOT353"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LDK130-33_SOT23_SOT353"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/29/10/f7/87/2f/66/47/f4/DM00076097.pdf/files/DM00076097.pdf/jcr:content/translations/en.DM00076097.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "300mA low dropout linear regulator, low quiescent current very, low noise, shutdown pin, 3.3V fixed positive output, SOT-23-5/SOT-353-5/SC-70-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive low noise low quienscent current"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23* SOT?353* *SC?70*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LDK130-33_SOT23_SOT353_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LDK130-33_SOT23_SOT353_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "BP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9801,22 +9638,19 @@
 				)
 			)
 		)
-		(symbol "SOJ_DRAM:SOJ_256Kx16"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "PDVGA:SOJ_256Kx16"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SOJ_256Kx16"
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -9825,7 +9659,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9834,7 +9668,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10578,6 +10412,181 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LDK130-33_SOT23_SOT353"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LDK130-33_SOT23_SOT353"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/29/10/f7/87/2f/66/47/f4/DM00076097.pdf/files/DM00076097.pdf/jcr:content/translations/en.DM00076097.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA low dropout linear regulator, low quiescent current very, low noise, shutdown pin, 3.3V fixed positive output, SOT-23-5/SOT-353-5/SC-70-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive low noise low quienscent current"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* SOT?353* *SC?70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LDK130-33_SOT23_SOT353_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LDK130-33_SOT23_SOT353_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "BP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -22899,7 +22908,7 @@
 		)
 		(uuid "0578afa2-8138-45e2-b812-fc2ddb55043c")
 	)
-	(text "Happy Tiido Mode:\nOmit C27-C32,\nreplace FB1-3 with\n0 ohm resistors"
+	(text "Unfiltered Mode:\nOmit C27-C32,\nreplace FB1-3 with\n0 ohm resistors"
 		(exclude_from_sim no)
 		(at 408.94 36.322 0)
 		(effects
@@ -23539,17 +23548,6 @@
 			(justify left bottom)
 		)
 		(uuid "12149d5a-057c-4829-ba7c-17de01ebae4d")
-	)
-	(label "ADR30"
-		(at 367.03 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "124f0cc3-0248-4f41-86ad-6ac6ce8788b4")
 	)
 	(label "EECS"
 		(at 284.48 186.69 180)
@@ -24717,17 +24715,6 @@
 		)
 		(uuid "3d0e1c29-85d3-458e-b550-46a49b3197ca")
 	)
-	(label "ADR27"
-		(at 308.61 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d3bdaa5-a39f-44fb-b1e8-bf251c5797b2")
-	)
 	(label "MA1"
 		(at 73.66 63.5 0)
 		(fields_autoplaced yes)
@@ -24903,17 +24890,6 @@
 			(justify right bottom)
 		)
 		(uuid "442e7f04-791c-4cb5-b5a8-c55407b05abe")
-	)
-	(label "ADR28"
-		(at 367.03 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "451943f1-2e29-412f-9439-2dbd78201f8b")
 	)
 	(label "MD59"
 		(at 292.1 33.02 180)
@@ -27169,17 +27145,6 @@
 			(justify right bottom)
 		)
 		(uuid "b03ec719-59ce-44fa-ad15-61c63f6f8091")
-	)
-	(label "ADR29"
-		(at 308.61 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0ace004-7ac6-45f1-9945-4abab3e4216d")
 	)
 	(label "MD8"
 		(at 114.3 25.4 180)
@@ -31729,91 +31694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Current:LM334M")
-		(at 238.76 210.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "004f0a10-ada7-4e1f-9316-95c9ca541f65")
-		(property "Reference" "U1"
-			(at 241.808 209.2903 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LM334M"
-			(at 241.808 211.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 238.125 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm134.pdf"
-			(at 238.76 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"
-			(at 238.76 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8bb0e82c-a234-48ad-8c9f-1c86f22c88be")
-		)
-		(pin "6"
-			(uuid "9929f456-ac4e-4b67-86f1-cfe1dd6db534")
-		)
-		(pin "7"
-			(uuid "df6ef971-53f4-4986-977b-2d2816f259ad")
-		)
-		(pin "3"
-			(uuid "51fcfdf2-ff26-4da8-8033-fc1210685e45")
-		)
-		(pin "2"
-			(uuid "3a8166fd-424c-4028-b91d-83236b8248bb")
-		)
-		(pin "1"
-			(uuid "e3b8badd-e1bb-4553-b0aa-923434283be3")
-		)
-		(instances
-			(project ""
-				(path "/5b408b6b-bd13-41fb-8952-41472f553b2d"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Pack04")
 		(at 508 100.33 90)
 		(mirror x)
@@ -31839,7 +31719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "PDVGA:ResArray_Convex_4x0603"
 			(at 508 107.315 90)
 			(effects
 				(font
@@ -32458,7 +32338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 501.65 124.46 0)
 			(effects
 				(font
@@ -32730,7 +32610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.14 332.74 0)
 			(effects
 				(font
@@ -32839,7 +32719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SOJ_DRAM:SOJ_256Kx16")
+		(lib_id "PDVGA:SOJ_256Kx16")
 		(at 153.67 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32864,8 +32744,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SOJ_DRAM:SOJ-40_10.16x26.44mm_P1.27mm"
-			(at 153.67 44.45 0)
+		(property "Footprint" "PDVGA:SOJ-40_10.16x26.44mm_P1.27mm"
+			(at 153.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32874,7 +32754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 44.45 0)
+			(at 153.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33157,7 +33037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SOJ_DRAM:SOJ_256Kx16")
+		(lib_id "PDVGA:SOJ_256Kx16")
 		(at 271.78 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33182,8 +33062,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SOJ_DRAM:SOJ-40_10.16x26.44mm_P1.27mm"
-			(at 271.78 44.45 0)
+		(property "Footprint" "PDVGA:SOJ-40_10.16x26.44mm_P1.27mm"
+			(at 271.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33192,7 +33072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 44.45 0)
+			(at 271.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33771,7 +33651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "PDVGA:SOIC-8_DMP-8"
 			(at 113.03 212.09 0)
 			(effects
 				(font
@@ -33964,7 +33844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SOJ_DRAM:SOJ_256Kx16")
+		(lib_id "PDVGA:SOJ_256Kx16")
 		(at 93.98 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33989,8 +33869,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SOJ_DRAM:SOJ-40_10.16x26.44mm_P1.27mm"
-			(at 93.98 44.45 0)
+		(property "Footprint" "PDVGA:SOJ-40_10.16x26.44mm_P1.27mm"
+			(at 93.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33999,7 +33879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 44.45 0)
+			(at 93.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35504,7 +35384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SOJ_DRAM:SOJ_256Kx16")
+		(lib_id "PDVGA:SOJ_256Kx16")
 		(at 212.09 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35529,8 +35409,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SOJ_DRAM:SOJ-40_10.16x26.44mm_P1.27mm"
-			(at 212.09 44.45 0)
+		(property "Footprint" "PDVGA:SOJ-40_10.16x26.44mm_P1.27mm"
+			(at 212.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35539,7 +35419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 44.45 0)
+			(at 212.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35776,7 +35656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 96.52 332.74 0)
 			(effects
 				(font
@@ -35912,7 +35792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 552.45 85.09 0)
 			(effects
 				(font
@@ -37008,6 +36888,94 @@
 		)
 	)
 	(symbol
+		(lib_id "PDVGA:LM334M")
+		(at 238.76 210.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b638c457-d0ce-487d-ae19-afd49f9add57")
+		(property "Reference" "U9"
+			(at 241.808 210.0333 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LM334M"
+			(at 241.808 211.7147 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PDVGA:SOIC-8_DMP-8"
+			(at 238.76 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1846e6d9-8c82-4819-a457-d211bf0af24d")
+		)
+		(pin "4"
+			(uuid "f0b9f5f5-dba2-4201-80a6-e2206b77f29b")
+		)
+		(pin "3"
+			(uuid "53b1a061-dac4-45d6-aa82-c463dd91b14a")
+		)
+		(pin "2"
+			(uuid "efbba4c3-32a7-416a-a6a4-871868fb3ab8")
+		)
+		(pin "5"
+			(uuid "e77ef7c0-e260-4147-9304-c2302e41f8a3")
+		)
+		(pin "8"
+			(uuid "9b7e5243-c0b8-43a3-a006-23131d6a3f2e")
+		)
+		(pin "7"
+			(uuid "003e1db9-10a0-4926-b5e1-e59356ffd4f1")
+		)
+		(pin "6"
+			(uuid "48341908-d1d5-4a4c-881b-75f960505dab")
+		)
+		(instances
+			(project ""
+				(path "/5b408b6b-bd13-41fb-8952-41472f553b2d"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 176.53 250.19 90)
 		(unit 1)
@@ -37113,7 +37081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 560.07 85.09 0)
 			(effects
 				(font
@@ -37180,7 +37148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 501.65 111.76 0)
 			(effects
 				(font
@@ -37814,163 +37782,6 @@
 			(project "cardshark"
 				(path "/5b408b6b-bd13-41fb-8952-41472f553b2d"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_EPROM:27C010")
-		(at 104.14 280.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf5b6b6e-15af-4a5e-93e2-cb66cb845695")
-		(property "Reference" "U14"
-			(at 106.3341 248.5855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27C010"
-			(at 106.3341 251.0098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PLCC-32:PLCC-32_SMD-Socket"
-			(at 104.14 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0321.pdf"
-			(at 104.14 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "OTP EPROM 1 MiBit (128 Ki x 8 Bit)"
-			(at 104.14 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "29"
-			(uuid "43afe5fb-9736-4d6e-befe-70b1a46280c2")
-		)
-		(pin "10"
-			(uuid "dfe80f9e-9a13-4cae-805e-041470ab3724")
-		)
-		(pin "12"
-			(uuid "bc2f82d6-0fc0-42ad-b7cb-405c0a02e458")
-		)
-		(pin "5"
-			(uuid "c2a32cbf-b5d5-4ed0-8a0f-787b4abe8cdd")
-		)
-		(pin "27"
-			(uuid "38099214-6c12-4f43-b603-51ff5ee7ab8a")
-		)
-		(pin "8"
-			(uuid "5c71e690-3796-4159-8f39-c116a6c8be3d")
-		)
-		(pin "6"
-			(uuid "b6c11e91-b22c-4821-8ce7-82fc9732299b")
-		)
-		(pin "23"
-			(uuid "a245f631-2c4f-4940-bc3f-8e9d1591b1ec")
-		)
-		(pin "24"
-			(uuid "441abdeb-fd4a-4aee-a761-844ba10e7283")
-		)
-		(pin "3"
-			(uuid "086f7891-993d-4c0c-a5cd-fefdaf348da7")
-		)
-		(pin "19"
-			(uuid "3e98d647-b5ef-4b44-a3dd-5a6f5d4358e5")
-		)
-		(pin "11"
-			(uuid "7b490210-cee8-4504-8271-52230b6fbad2")
-		)
-		(pin "22"
-			(uuid "92614fcc-d4c4-47ff-ad42-0bd69005e8ae")
-		)
-		(pin "28"
-			(uuid "e7aa0e70-a58a-4e7b-ad00-d19b8b3feff2")
-		)
-		(pin "18"
-			(uuid "75534d63-b889-493d-b5e9-8bba14396e8b")
-		)
-		(pin "7"
-			(uuid "6b06fcc3-7609-4d8e-83a0-eb24edb98b3b")
-		)
-		(pin "9"
-			(uuid "fc5b6d98-ae14-4b45-b644-5a0d6f656a73")
-		)
-		(pin "14"
-			(uuid "bb9b903e-2a7b-4c8d-81e2-fb89d1ccec93")
-		)
-		(pin "31"
-			(uuid "5db96fc9-7d60-41db-a711-8dae66c38961")
-		)
-		(pin "17"
-			(uuid "cbe902c8-49c7-4310-9a8b-2cc5990d01ab")
-		)
-		(pin "25"
-			(uuid "1633dc6d-de07-446e-afea-f3b7b3b4ea64")
-		)
-		(pin "16"
-			(uuid "c99e6f64-3a7c-4ea2-a694-dad6a166f25a")
-		)
-		(pin "26"
-			(uuid "8a9f384f-944e-4e7b-af20-c2bc6070f496")
-		)
-		(pin "2"
-			(uuid "bcc35cfe-aaa8-4792-b3d3-ecd3ef15d942")
-		)
-		(pin "1"
-			(uuid "cdb6bfeb-2d7b-4064-b90e-35e538ebb0fc")
-		)
-		(pin "15"
-			(uuid "0ca8171d-f392-442b-a0e2-d84621a36c70")
-		)
-		(pin "4"
-			(uuid "c25506b0-f1f7-49a2-af7c-03d0c63921ba")
-		)
-		(pin "21"
-			(uuid "904dff66-735d-494a-8768-b0c2a24e18ea")
-		)
-		(pin "20"
-			(uuid "14e1c8cc-f410-4717-9f2d-0661a48d4166")
-		)
-		(pin "32"
-			(uuid "ca27216f-fb99-4bdb-8297-d8fc046f9272")
-		)
-		(pin "13"
-			(uuid "011c985d-b107-40a8-aef9-89a26f252f33")
-		)
-		(instances
-			(project ""
-				(path "/5b408b6b-bd13-41fb-8952-41472f553b2d"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -39824,6 +39635,166 @@
 			(project "cardshark"
 				(path "/5b408b6b-bd13-41fb-8952-41472f553b2d"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PDVGA:27C010")
+		(at 104.14 283.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f34499a3-f1d7-46eb-9a18-928d127c4259")
+		(property "Reference" "U5"
+			(at 106.3341 250.0715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27C010"
+			(at 106.3341 251.7529 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PDVGA:PLCC-32_SMD-Socket"
+			(at 104.14 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c314e131-bd5f-41cd-8ded-d01413576c0f")
+		)
+		(pin "15"
+			(uuid "5e948248-12cd-4763-ba74-cb3859f64902")
+		)
+		(pin "26"
+			(uuid "b1512ef2-f1c9-4a44-a4c7-bdde72c20019")
+		)
+		(pin "5"
+			(uuid "af3d18b3-171f-446a-8fdc-27ccc14de311")
+		)
+		(pin "3"
+			(uuid "b9edcb76-5b90-4128-86f3-9cb7739ad943")
+		)
+		(pin "29"
+			(uuid "9b4aa91b-f9ed-42c0-a5ba-ca92fe409c7e")
+		)
+		(pin "25"
+			(uuid "0aea93f0-3a01-4ed5-89e0-cf00e0e43ba7")
+		)
+		(pin "20"
+			(uuid "3c5efe17-2ccc-423e-9c6a-7f713f257afa")
+		)
+		(pin "2"
+			(uuid "fb472b11-bc84-488f-bcfd-eec730f62cf2")
+		)
+		(pin "30"
+			(uuid "cb5c799b-6972-4bb2-ab15-8a7ce697084a")
+		)
+		(pin "1"
+			(uuid "953b4ad4-6657-4d5e-a900-7a5a5c6174cb")
+		)
+		(pin "6"
+			(uuid "b2c654a0-b8c0-4da3-b522-c59bda8b6562")
+		)
+		(pin "31"
+			(uuid "949f1180-145f-4336-89df-7f7f95bcf89d")
+		)
+		(pin "23"
+			(uuid "1723b1b0-3dd5-40a4-9d84-5398d5ca04ca")
+		)
+		(pin "16"
+			(uuid "3fc9a1ea-d300-4dcd-829e-48c7fc164be4")
+		)
+		(pin "19"
+			(uuid "34e4df6d-df21-4e51-aaac-3f99a06f4fc4")
+		)
+		(pin "11"
+			(uuid "7de5d921-6937-4954-817b-c2a81ad5a5b5")
+		)
+		(pin "13"
+			(uuid "054fb5f8-b508-47f2-bafa-36c21743f16a")
+		)
+		(pin "14"
+			(uuid "886b8021-c7ee-4159-9250-b0376b229520")
+		)
+		(pin "27"
+			(uuid "3746da17-3f89-497c-9f6d-3bb6cf6a9ed7")
+		)
+		(pin "9"
+			(uuid "51b5a63d-8160-4331-b51d-fe84810962a0")
+		)
+		(pin "28"
+			(uuid "fa3515b5-defb-4d7b-b6bc-6bc061b5c4f8")
+		)
+		(pin "17"
+			(uuid "d1b236f3-a8fa-4d3b-8781-e4ed0d2c979d")
+		)
+		(pin "7"
+			(uuid "7fd9dffe-67bb-48c2-9de7-6ba9f8f8d56f")
+		)
+		(pin "18"
+			(uuid "0c89c6be-4cfb-4ff4-98bc-f1a2bb35b991")
+		)
+		(pin "21"
+			(uuid "73bc3d78-fe29-4440-9c7e-8264740acc25")
+		)
+		(pin "32"
+			(uuid "54357813-c00e-4cba-b079-925c0ca233e1")
+		)
+		(pin "22"
+			(uuid "4222ffdd-0dfe-4099-a1d2-d85e79326595")
+		)
+		(pin "12"
+			(uuid "a860b835-3a03-4d58-9fc8-773d41aa38e1")
+		)
+		(pin "8"
+			(uuid "ba9f7bd4-19da-460e-8fca-a8f917207a7d")
+		)
+		(pin "10"
+			(uuid "c8d9f51b-ee21-4279-ae01-c04aa26396e3")
+		)
+		(pin "24"
+			(uuid "d5303a8a-b4e8-4fe4-9a52-0942e8e5801f")
+		)
+		(instances
+			(project ""
+				(path "/5b408b6b-bd13-41fb-8952-41472f553b2d"
+					(reference "U5")
 					(unit 1)
 				)
 			)

@@ -1,9 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "1206_Wide")(type "KiCad")(uri "${KIPRJMOD}/new_parts/1206_Wide/footprints.pretty")(options "")(descr ""))
-  (lib (name "SOJ_DRAM")(type "KiCad")(uri "${KIPRJMOD}/new_parts/SOJ")(options "")(descr ""))
   (lib (name "PDVGA")(type "KiCad")(uri "${KIPRJMOD}/new_parts/PDVGA/PDVGA.pretty")(options "")(descr ""))
   (lib (name "VLB")(type "KiCad")(uri "${KIPRJMOD}/new_parts/VLB/VLB.pretty")(options "")(descr ""))
-  (lib (name "PLCC-32")(type "KiCad")(uri "${KIPRJMOD}/new_parts/PDVGA")(options "")(descr ""))
   (lib (name "cardshark")(type "KiCad")(uri "${KIPRJMOD}/new_parts")(options "")(descr ""))
 )
