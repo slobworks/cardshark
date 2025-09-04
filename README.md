@@ -14,7 +14,7 @@ Features:
 - Features my own hand-drawn artwork on back of board
 
 Release History:
-- 0.1b: Major overhaul. Relaid everything, redid a lot of stuff that was broken and didn't work (if the previous version wasted your money... sorry! I mean it!)
+- 0.1b: Major overhaul. Relaid everything, redid a lot of stuff that was broken and didn't work (if the previous version wasted your money... sorry! I feel like a prize horse's arse for uploading something so broken, as it is!)
 
 Provided under the terms of the MIT License.
 
