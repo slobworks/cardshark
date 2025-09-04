@@ -17,7 +17,7 @@ Features:
 - Features my own hand-drawn artwork on back of board
 
 Release History:
-- Take 1: Uploaded ISA version.
+- 0.1a1: Uploaded ISA version.
 
 Provided under the terms of the MIT License.
 
