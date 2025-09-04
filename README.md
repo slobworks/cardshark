@@ -13,7 +13,7 @@ Features:
 - Four layer PCB with generous stitching vias for maximum possible signal integrity
 - 2MB memory with 64-bit data bus
 - Compatible with CL-GD5434
-- Uses 29C010-compatible flash memory for reduced cost; has options to select one of four 32K banks within the large 128K flash memory if you wish to try multiple video BIOSes
+- Uses 27C256-compatible DIP UV PROM or EPROM chips
 - Features my own hand-drawn artwork on back of board
 
 Release History:
