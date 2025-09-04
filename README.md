@@ -1,9 +1,14 @@
-CARDSHARK v0.1 - Open Source Cirrus Logic CL-GD543x Based ISA VGA Card
+CARDSHARK v0.1 - Open Source Cirrus Logic CL-GD5434 Based ISA VGA Card
 
 As it says on the package. This VGA card for the ISA Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. EDO is supported by later revisions of the CL-GD5434 (at least J), but does not improve performance. 60ns or faster is recommended.
 Created using KiCAD 8.0.
-![front](https://github.com/user-attachments/assets/20c142e0-9d0e-4e36-861a-1f0dde790aed)
-![back](https://github.com/user-attachments/assets/4963f239-244d-4b1f-813f-4c99a116335c)
+
+<img width="1403" height="728" alt="bleh" src="https://github.com/user-attachments/assets/75885699-b292-4c0e-a92e-33c654ebc6ee" />
+<img width="1403" height="728" alt="bleh_back" src="https://github.com/user-attachments/assets/1bd535e8-04b1-45d0-b211-fd535ca2207d" />
+
+
+The prototype worked great; this version integrates some fixes that my unreleased prototype needed.
+
 Features:
 - Four layer PCB with generous stitching vias for maximum possible signal integrity
 - 2MB memory with 64-bit data bus
