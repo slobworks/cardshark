@@ -10,7 +10,7 @@ Features:
 - Optional dedicated regulator for analog DAC power for further improved picture quality
 - 2MB memory with 64-bit data bus for CL-GD5430/5434
 - Compatible with CL-GD5430 and CL-GD5434
-- Uses 29C010-compatible flash memory for reduced cost; has options to select one of four 32K banks within the large 128K flash memory if you wish to try multiple video BIOSes
+- Uses a 27C256-compatible UV PROM or EPROM chip for the BIOS
 - Features my own hand-drawn artwork on back of board
 
 Release History:
