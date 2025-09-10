@@ -16,6 +16,8 @@ Features:
 - Uses 27C256-compatible DIP UV PROM or EPROM chips
 - Features my own hand-drawn artwork on back of board
 
+You should use FPM type memory with this card. One revision, CL-GD5434-J-QC-F, supports EDO memory but gains no performance from it.
+
 Release History:
 - 0.1a1: Uploaded ISA version.
 
