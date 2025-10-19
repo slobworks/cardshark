@@ -1,3 +1,5 @@
+<b>Files for the ISA version are temporarily unavailable until I nail some rather nasty bugs that were identified much later in testing. They will be made available again once I have high confidence in the compatibility and quality of the design.</b>
+
 CARDSHARK v0.1 - Open Source Cirrus Logic CL-GD5434 Based ISA VGA Card
 
 As it says on the package. This VGA card for the ISA Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. 60ns or faster is recommended.
