@@ -15,7 +15,7 @@ Features:
 You should use FPM type memory with this card. One revision, CL-GD5434-J-QC-F, supports EDO memory but gains no performance from it.
 
 Release History:
-- 0.1a1: Uploaded ISA version.
+- 0.1a1: Uploaded ISA version. (10/19) Later removed following the discovery of several very nasty bugs that negatively impact both picture quality and compatibility. ETA to repaired design unknown.
 
 Provided under the terms of the MIT License.
 
