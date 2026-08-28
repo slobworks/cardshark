@@ -6,7 +6,7 @@ As it says on the package. This VGA card for the VESA Local Bus supports a maxim
 Created using KiCAD 8.0.
 
 Features:
-- Four layer PCB with generous stitching vias for maximum possible signal integrity
+- Four layer PCB with cautiously laid ground pours, and judicious usage of stitching vias
 - Dedicated regulator for analog DAC power for further improved picture quality
 - 2MB FPM memory with 64-bit data bus for CL-GD5430/5434
 - Compatible with CL-GD5430 and CL-GD5434
