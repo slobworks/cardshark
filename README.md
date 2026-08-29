@@ -3,7 +3,7 @@
 CARDSHARK Tiburon Take 4 - Open Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
 As it says on the package. This VGA card for the VESA Local Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. EDO is supported on CL-GD5434-J-QC-F (notice the -J) but does not improve performance. 60ns or faster is recommended.
-Created using KiCAD 8.0.
+Created using KiCAD 8.0, updated for 10.0 (a thousand apologies if this breaks your older version!)
 
 Features:
 - Four layer PCB with cautiously laid ground pours, and judicious usage of stitching vias
