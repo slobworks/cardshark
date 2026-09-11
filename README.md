@@ -12,6 +12,7 @@ Features:
 - Compatible with CL-GD5430 and CL-GD5434
 - Uses a 27C256-compatible UV PROM or EPROM chip for the BIOS
 - Supports 40MHz VLB bus on motherboards that can actually handle that
+- Mercifully short mode-switch delays on LCD monitors, unlike most vintage VGA chipsets (a Cirrus quality)
 - Features my own hand-drawn artwork on back of board
 
 Release History:
