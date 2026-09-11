@@ -1,5 +1,5 @@
-<img width="1701" height="480" alt="image" src="https://github.com/user-attachments/assets/c2e86b7c-f14b-44da-ae5d-de062874c7d9" />
-<img width="1720" height="525" alt="image" src="https://github.com/user-attachments/assets/7604b2d8-df3f-48bd-a4e7-6ddfc397dd0c" />
+<img width="2133" height="1200" alt="cardshark_front" src="https://github.com/user-attachments/assets/9f358a36-fde6-4dfd-b9a0-2b3607420506" />
+<img width="2133" height="1200" alt="cardshark_back" src="https://github.com/user-attachments/assets/5aca1fa9-3e10-48a6-bed0-2a8e58066867" />
 CARDSHARK Tiburon Take 4 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
 As it says on the package. This VGA card for the VESA Local Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. 70ns or faster memory is recommended, as is a CL-GD5434 chip for the fastest speed and least confusing build.
@@ -23,9 +23,8 @@ Release History:
 Known Issues:
 - Hand-soldering that PQFP-208 chip with all those thin little pins is a nightmare, even with hot air
 - For v1.1, I will be making the 0.1uF cap packages 0805s to make them less exacting to install
-- Image quality isn't 100% perfect on LCD. (Some extremely faint vertical lines, though generally much less pronounced than on extant cards); if this bugs you use a CRT monitor with it, or play with your RetroTINK's timings a bit
+- Image quality isn't 100% perfect on LCD. (Some extremely faint vertical lines, though generally much less pronounced than on extant cards); if this bugs you use a CRT monitor with it, or play with your RetroTINK's timings a bit (I suspect the bars are actually timing-related and not noise at all)
 - EDO is ONLY supported on CL-GD5434-J-QC, but even then it does not improve performance at all. *NO* other versions support EDO, so don't waste money ordering EDO SOJ chips
-- 
 
 Bill of Materials: (All passive parts are 0805/2012 metric unless otherwise indicated)
 - 1x Cirrus Logic CL-GD5430 or CL-GD5434 PQFP-208 chip (watch out for fakes - they're everywhere)
