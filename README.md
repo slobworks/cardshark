@@ -1,4 +1,4 @@
-<img width="2133" height="1200" alt="cardshark_front" src="https://github.com/user-attachments/assets/9f358a36-fde6-4dfd-b9a0-2b3607420506" />
+<img width="2133" height="1200" alt="cardshark_front" src="https://github.com/user-attachments/assets/4414d157-0933-42cd-9690-fe86197c4253" />
 <img width="2133" height="1200" alt="cardshark_back" src="https://github.com/user-attachments/assets/5aca1fa9-3e10-48a6-bed0-2a8e58066867" />
 CARDSHARK Tiburon Take 4 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
