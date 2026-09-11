@@ -53,6 +53,7 @@ Bill of Materials: (All passive parts are 0805/2012 metric unless otherwise indi
 - 2x 4x0603 6.8K ohm convex SMD resistor packs
 - 1x 0603(1608 metric) 270-330 ohm SMD resistor, 1% thin film
 - 2x 1K SMD resistors
+- 1x DSUB-15-HD right angle through hole VGA connector (something akin to this: https://www.digikey.com/en/products/detail/assmann-wsw-components/A-HDF15A-KG-TAXB/1241905)
 - 1x DIP-28 socket + 27C256 or compatible PROM/EEPROM/flash ROM chip for BIOS + BIOS file (figure that out yourself)
 
 Provided under the terms of the MIT License.
