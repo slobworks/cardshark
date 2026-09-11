@@ -7,7 +7,7 @@ Created using KiCAD 8.0, updated for 10.0 (a thousand apologies if this breaks y
 
 Features:
 - Four layer PCB with cautiously laid ground pours, and judicious usage of stitching vias
-- Beefy dDedicated regulator providing analog DAC power, for further improved picture quality
+- Beefy Dedicated regulator providing analog DAC power, for further improved picture quality
 - 2MB FPM memory with 64-bit data bus for CL-GD5434
 - Compatible with CL-GD5430 and CL-GD5434
 - Uses a 27C256-compatible UV PROM or EPROM chip for the BIOS
