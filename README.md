@@ -20,6 +20,42 @@ Release History:
 - Take 2 (internal): Almost worked. Major bugs all over the place. Barely functional.
 - 0.1b: Major overhaul. Relaid everything, redid a lot of stuff that was broken and didn't work (if the previous version wasted your money... sorry! I feel like a prize horse's arse for uploading something so broken, as it is!)
 
+Known Issues:
+- Hand-soldering that PQFP-208 chip with all those thin little pins is a nightmare, even with hot air
+- For v1.1, I will be making the 0.1uF cap packages 0805s to make them less exacting to install
+- Image quality isn't 100% perfect on LCD. (Some extremely faint vertical lines, though generally much less pronounced than on extant cards); if this bugs you use a CRT monitor with it, or play with your RetroTINK's timings a bit
+- EDO is ONLY supported on CL-GD5434-J-QC, but even then it does not improve performance at all. *NO* other versions support EDO, so don't waste money ordering EDO SOJ chips
+- 
+
+Bill of Materials: (All passive parts are 0805/2012 metric unless otherwise indicated)
+- 1x Cirrus Logic CL-GD5430 or CL-GD5434 PQFP-208 chip (watch out for fakes - they're everywhere)
+- 1x SOIC-14 (3.9mm x 8.7mm P1.27mm) SN74F260DR or directly compatible part
+- At least 2x, but up to 4x 256Kx16 dual-CAS Fast Page Mode (*NOT* EDO) SOJ-40 DRAM memory
+- 1x 78M05 5V DPAK regulator (LF50 is compatible)
+- 1x 14.318MHz DIP-14 CXO 4-pin through-hole oscillator
+- 1x MMBT3904 SOT-23 NPN transistor
+- 1x TL431DBZ SOT-23 programmable shunt reference
+- 3x 11 ohm @ 100MHz ferrite beads (for RGB signals)
+- 3x 100+ ohm @ 100MHz ferrite beads (for power rails)
+- 2x 1x2 2.54mm pin headers + jumper caps
+- 1x 2x3 1.27mm pin header + jumper caps
+- 4x 10pF 25/50v MLCC X5R/X7R ceramic capacitor
+- 20x 0.1uF 25/50v MLCC X5R/X7R ceramic capacitor
+- 4x 2.2uF 25/50v MLCC X5R/X7R ceramic capacitor
+- 6x 10uF 25/50v MLCC X5R/X7R ceramic capacitor
+- 1x 5mm 22uF 16V SMD electrolytic capacitor
+- 1x 0 ohm SMD resistor (or a short snip of wire)
+- 3x 0603(1608 metric) 10 ohm SMD resistors
+- 1x 4x0603 33 ohm convex SMD resistor pack
+- 2x 0603(1608 metric) 75 ohm SMD resistors
+- 1x 4x0603 75 ohm convex SMD resistor pack
+- 1x 100 ohm SMD resistor
+- 3x 0603(1608 metric) 6.8K SMD resistors
+- 2x 4x0603 6.8K ohm convex SMD resistor packs
+- 1x 0603(1608 metric) 270-330 ohm SMD resistor, 1% thin film
+- 2x 1K SMD resistors
+- 1x DIP-28 socket + 27C256 or compatible PROM/EEPROM/flash ROM chip for BIOS + BIOS file (figure that out yourself)
+
 Provided under the terms of the MIT License.
 
 As you can see I'm a bit of a neophyte when it comes to this GitHub stuff.
