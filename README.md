@@ -1,8 +1,8 @@
-**Files for VLB version are currently not yet available - currently undergoing validation and testing, in preparation for Take 4**
+<img width="1920" height="1080" alt="cardshark_front" src="https://github.com/user-attachments/assets/b92b4fc7-ecd2-4a36-8618-fc9795554f7a" />
+<img width="1920" height="1080" alt="cardshark_back" src="https://github.com/user-attachments/assets/1c767aca-e8b6-48c7-bb66-694783f0b99a" />
+CARDSHARK Tiburon Take 4 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
-CARDSHARK Tiburon Take 4 - Open Source Cirrus Logic CL-GD543x Based VLB VGA Card
-
-As it says on the package. This VGA card for the VESA Local Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. 70ns or faster memory is recommended, as is a CL-GD5434 chip for the fastest speed.
+As it says on the package. This VGA card for the VESA Local Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. 70ns or faster memory is recommended, as is a CL-GD5434 chip for the fastest speed and least confusing build.
 Created using KiCAD 8.0, updated for 10.0 (a thousand apologies if this breaks your older version!)
 
 Features:
