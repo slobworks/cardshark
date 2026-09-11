@@ -23,7 +23,7 @@ Release History:
 Known Issues:
 - Hand-soldering that PQFP-208 chip with all those thin little pins is a nightmare, even with hot air
 - For v1.1, I will be making the 0.1uF cap packages 0805s to make them less exacting to install
-- Image quality isn't 100% perfect on LCD. (Some extremely faint vertical lines, though generally much less pronounced than on extant cards); if this bugs you use a CRT monitor with it, or play with your RetroTINK's timings a bit (I suspect the bars are actually timing-related and not noise at all)
+- While generally very good, Mode 13h and EGA image quality isn't 100% perfect on LCD. Some extremely faint vertical lines, though generally much less pronounced than on extant cards; you will probably want to play with your RetroTINK's timings a bit (these seem to be timing related and not noise, as they are not visible at all in SVGA modes)
 - EDO is ONLY supported on CL-GD5434-J-QC, but even then it does not improve performance at all. *NO* other versions support EDO, so don't waste money ordering EDO SOJ chips
 
 Bill of Materials: (All passive parts are 0805/2012 metric unless otherwise indicated)
