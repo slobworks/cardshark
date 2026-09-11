@@ -1,5 +1,5 @@
-<img width="1920" height="1080" alt="cardshark_front" src="https://github.com/user-attachments/assets/b92b4fc7-ecd2-4a36-8618-fc9795554f7a" />
-<img width="1920" height="1080" alt="cardshark_back" src="https://github.com/user-attachments/assets/1c767aca-e8b6-48c7-bb66-694783f0b99a" />
+<img width="1701" height="480" alt="image" src="https://github.com/user-attachments/assets/c2e86b7c-f14b-44da-ae5d-de062874c7d9" />
+<img width="1720" height="525" alt="image" src="https://github.com/user-attachments/assets/7604b2d8-df3f-48bd-a4e7-6ddfc397dd0c" />
 CARDSHARK Tiburon Take 4 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
 As it says on the package. This VGA card for the VESA Local Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. 70ns or faster memory is recommended, as is a CL-GD5434 chip for the fastest speed and least confusing build.
