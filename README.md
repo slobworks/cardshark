@@ -40,7 +40,7 @@ Bill of Materials: (All passive parts are 0805/2012 metric unless otherwise indi
 - 2x 1x2 2.54mm pin headers + jumper caps
 - 1x 2x3 1.27mm pin header + jumper caps
 - 4x 10pF 25/50v MLCC X5R/X7R ceramic capacitor
-- 20x 0.1uF 25/50v MLCC X5R/X7R ceramic capacitor
+- 20x 0603(1608 metric) 0.1uF 25/50v MLCC X5R/X7R ceramic capacitor
 - 4x 2.2uF 25/50v MLCC X5R/X7R ceramic capacitor
 - 6x 10uF 25/50v MLCC X5R/X7R ceramic capacitor
 - 1x 5mm 22uF 16V SMD electrolytic capacitor
