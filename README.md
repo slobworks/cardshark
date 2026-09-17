@@ -1,6 +1,6 @@
 <img width="1722" height="511" alt="cardshark_front" src="https://github.com/user-attachments/assets/804d390f-d105-4594-9b74-abf82c0251bc" />
 <img width="1723" height="530" alt="cardshark_back png" src="https://github.com/user-attachments/assets/978cd4c2-7eec-4963-aaea-df31b1e4c4f5" />
-**Update 9/17/26:** - Big gaggle of minor changes all over. Bigger, better and cleaner PCB art on the front. Changed all those pesky 0603 0.1uF capacitors to 0805 to make them slightly less fiddly. Had to do some moderate rerouting to compensate - hopefully the 40MHz operation is not adversely affected.
+<b>Update 9/17/26:</b> Big gaggle of minor changes all over. Bigger, better and cleaner PCB art on the front. Changed all those pesky 0603 0.1uF capacitors to 0805 to make them slightly less fiddly. Had to do some moderate rerouting to compensate - hopefully the 40MHz operation is not adversely affected.
 
 CARDSHARK Tiburon v1.1 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
@@ -26,7 +26,6 @@ Release History:
 
 Known Issues:
 - Hand-soldering that PQFP-208 chip with all those thin little pins is a nightmare, even with hot air
-- For v1.1, I will be making the 0.1uF cap packages 0805s to make them less exacting to install
 - While generally very good, Mode 13h and EGA image quality isn't 100% perfect on LCD. Some extremely faint vertical lines, though generally much less pronounced than on extant cards; you will probably want to play with your RetroTINK's timings a bit (these seem to be timing related and not noise, as they are not visible at all in SVGA modes)
 - EDO is ONLY supported on CL-GD5434-J-QC, but even then it does not improve performance at all. *NO* other versions support EDO, so don't waste money ordering EDO SOJ chips
 
