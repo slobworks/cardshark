@@ -1,6 +1,8 @@
-<img width="2133" height="1200" alt="cardshark_front" src="https://github.com/user-attachments/assets/4414d157-0933-42cd-9690-fe86197c4253" />
-<img width="2133" height="1200" alt="cardshark_back" src="https://github.com/user-attachments/assets/5aca1fa9-3e10-48a6-bed0-2a8e58066867" />
-CARDSHARK Tiburon v1.0 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
+<img width="1722" height="511" alt="cardshark_front" src="https://github.com/user-attachments/assets/804d390f-d105-4594-9b74-abf82c0251bc" />
+<img width="1723" height="530" alt="cardshark_back png" src="https://github.com/user-attachments/assets/978cd4c2-7eec-4963-aaea-df31b1e4c4f5" />
+[b]Update 9/17/26:,/b] - Big gaggle of minor changes all over. Bigger, better and cleaner PCB art on the front. Changed all those pesky 0603 0.1uF capacitors to 0805 to make them slightly less fiddly. Had to do some moderate rerouting to compensate - hopefully the 40MHz operation is not adversely affected.
+
+CARDSHARK Tiburon v1.1 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
 As it says on the package. This VGA card for the VESA Local Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. 70ns or faster memory is recommended, as is a CL-GD5434 chip for the fastest speed and least confusing build.
 Created using KiCAD 8.0, updated for 10.0 (a thousand apologies if this breaks your older version!)
@@ -16,8 +18,8 @@ Features:
 - Features my own hand-drawn artwork on back of board
 
 Release History:
-- Tiburon v1.1 (release pending... stay tuned): Tons o' minor tweaks: bigger, better and cleaner PCB art on the front. Moved BIOS socket so I can reduce the ominous kink in the RGB traces. More forgiving 0805(2012 metric) footprints for the 0.1uF capacitors; you can still fit 0603s to them though.
-- Tiburon v1.0: May this one be bug-free.
+- Tiburon v1.1: Tons o' minor tweaks: bigger, better and cleaner PCB art on the front. Moved BIOS socket so I can reduce the ominous kink in the RGB traces. More forgiving 0805(2012 metric) footprints for the 0.1uF capacitors; you can still fit 0603s to them though. Moved some stuff around to try to get shorter ground loop paths when possible.
+- Tiburon v1.0: First proper release.
 - Tiburon Take 3 (internal): FINALLY we have a properly working VLB card... so long as you only use a GD5434 and 2MB of memory. One of the RAS lines got screwed, which gets overridden anyway when a GD5434 is used. Also some really minor bugs (wrong resistor values in a couple spots, easily fixed). At least it sure looks nice assembled, and so long as it's given a GD5434 with 2MB, it's a monster (of the good kind).
 - Take 2 (internal): Almost worked. Major bugs all over the place. Barely functional.
 - 0.1b: Major overhaul. Relaid everything, redid a lot of stuff that was broken and didn't work (if the previous version wasted your money... sorry! I feel like a prize horse's arse for uploading something so broken, as it is!)
@@ -41,7 +43,7 @@ Bill of Materials: (All passive parts are 0805/2012 metric unless otherwise indi
 - 2x 1x2 2.54mm pin headers + jumper caps
 - 1x 2x3 1.27mm pin header + jumper caps
 - 4x 10pF 25/50v MLCC X5R/X7R ceramic capacitor
-- 20x 0603(1608 metric) 0.1uF 25/50v MLCC X5R/X7R ceramic capacitor
+- 20x 0805(2012 metric) 0.1uF 25/50v MLCC X5R/X7R ceramic capacitor
 - 4x 2.2uF 25/50v MLCC X5R/X7R ceramic capacitor
 - 6x 10uF 25/50v MLCC X5R/X7R ceramic capacitor
 - 1x 5mm 22uF 16V SMD electrolytic capacitor
