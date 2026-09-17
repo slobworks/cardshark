@@ -1,6 +1,6 @@
 <img width="1722" height="511" alt="cardshark_front" src="https://github.com/user-attachments/assets/804d390f-d105-4594-9b74-abf82c0251bc" />
 <img width="1723" height="530" alt="cardshark_back png" src="https://github.com/user-attachments/assets/978cd4c2-7eec-4963-aaea-df31b1e4c4f5" />
-[b]Update 9/17/26:,/b] - Big gaggle of minor changes all over. Bigger, better and cleaner PCB art on the front. Changed all those pesky 0603 0.1uF capacitors to 0805 to make them slightly less fiddly. Had to do some moderate rerouting to compensate - hopefully the 40MHz operation is not adversely affected.
+**Update 9/17/26:** - Big gaggle of minor changes all over. Bigger, better and cleaner PCB art on the front. Changed all those pesky 0603 0.1uF capacitors to 0805 to make them slightly less fiddly. Had to do some moderate rerouting to compensate - hopefully the 40MHz operation is not adversely affected.
 
 CARDSHARK Tiburon v1.1 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
