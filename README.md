@@ -1,6 +1,6 @@
 <img width="2133" height="1200" alt="cardshark_front" src="https://github.com/user-attachments/assets/4414d157-0933-42cd-9690-fe86197c4253" />
 <img width="2133" height="1200" alt="cardshark_back" src="https://github.com/user-attachments/assets/5aca1fa9-3e10-48a6-bed0-2a8e58066867" />
-CARDSHARK Tiburon Take 4 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
+CARDSHARK Tiburon v1.0 - MIT-Licensed, Open-Source Cirrus Logic CL-GD543x Based VLB VGA Card
 
 As it says on the package. This VGA card for the VESA Local Bus supports a maximum memory size of 2MB, using traditional multiple-CAS FPM 256Kx16 SOJ memory. 70ns or faster memory is recommended, as is a CL-GD5434 chip for the fastest speed and least confusing build.
 Created using KiCAD 8.0, updated for 10.0 (a thousand apologies if this breaks your older version!)
@@ -16,6 +16,7 @@ Features:
 - Features my own hand-drawn artwork on back of board
 
 Release History:
+- Tiburon v1.1 (release pending... stay tuned): Tons o' minor tweaks: bigger, better and cleaner PCB art on the front. Moved BIOS socket so I can reduce the ominous kink in the RGB traces. More forgiving 0805(2012 metric) footprints for the 0.1uF capacitors; you can still fit 0603s to them though.
 - Tiburon v1.0: May this one be bug-free.
 - Tiburon Take 3 (internal): FINALLY we have a properly working VLB card... so long as you only use a GD5434 and 2MB of memory. One of the RAS lines got screwed, which gets overridden anyway when a GD5434 is used. Also some really minor bugs (wrong resistor values in a couple spots, easily fixed). At least it sure looks nice assembled, and so long as it's given a GD5434 with 2MB, it's a monster (of the good kind).
 - Take 2 (internal): Almost worked. Major bugs all over the place. Barely functional.
