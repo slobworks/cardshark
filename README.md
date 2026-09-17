@@ -39,8 +39,8 @@ Bill of Materials: (All passive parts are 0805/2012 metric unless otherwise indi
 - 1x TL431DBZ SOT-23 programmable shunt reference
 - 3x 11 ohm @ 100MHz ferrite beads (for RGB signals)
 - 3x 100+ ohm @ 100MHz ferrite beads (for power rails)
-- 2x 1x2 2.54mm pin headers + jumper caps
-- 1x 2x3 1.27mm pin header + jumper caps
+- 2x 1x2 2.54mm THT pin headers + jumper caps
+- 1x 2x3 1.27mm SMD pin header + jumper caps
 - 4x 10pF 25/50v MLCC X5R/X7R ceramic capacitor
 - 20x 0805(2012 metric) 0.1uF 25/50v MLCC X5R/X7R ceramic capacitor
 - 4x 2.2uF 25/50v MLCC X5R/X7R ceramic capacitor
